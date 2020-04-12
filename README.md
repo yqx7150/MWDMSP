@@ -8,7 +8,7 @@ Image restoration is essentially recognized as an ill-posed problem. A feasible 
 procedure as constrained conditions. Wavelet transform is a very classical tool associated with regularized inverse problem.
 
 ### Figs
-![repeat-MWDMSP](https://github.com/yqx7150/HFDAEP/blob/master/figs/forward%20and%20backward.png)
+![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/flowchart.png)
 Fig. 1. Flow-chart of the MWDMSP network.
 
 ![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/iteration.png)
@@ -16,14 +16,14 @@ Fig. 2. Illustration of the MWDMSP network as a priori information for the itera
 
 ### Table
 
-![repeat-MWDMSP](https://github.com/yqx7150/HFDAEP/blob/master/figs/table.png)
+![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/table.png)
 
 ### Deblured visual Comparisons
 ![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/result.png)
 Fig. 3. Visual quality comparison of image deblurring. Top line: image “Barbara” on Gaussian kernel: 17*17 ,sigma=2.55 , Middle line: image “Peppers” on Gaussian kernel: 17*17 ,sigma=7.65, Bottom line: image “Boats” on Gaussian kernel:25*25, sigma=7.65 . From left to right: noisy and blurred image, the deblurred images obtained by LevinSps, EPLL, DAEP, DMSP, DPE, and MWDMSP.
 
 ### CS visual Comparisons
-![repeat-MWDMSP](https://github.com/yqx7150/HFDAEP/blob/master/figs/result2.png)
+![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/CTres.png)
 Fig. 4.Recovery results at 15% random sampling (Top) and 10% radial sampling (Bottom). From left to right: Mask pattern, PANO, NLR-CS, BM3DRec, DMSP and MWDMSP.
 
 ## Requirements and Dependencies
@@ -32,10 +32,9 @@ Fig. 4.Recovery results at 15% random sampling (Top) and 10% radial sampling (Bo
     matconvnet
     
 ##  deblured
-'./DemoMRI/demo_MRI.m' is the demo of HF-DAEP for MRI reconstruction.
+'./DemoMRI/demo_MRI.m' is the demo of MWDMSP for image deblurring.
 ## CS
 './DemoCT/demo_CTRec.m' is the demo of HF-DAEP for CT reconstruction.
-'./DemoCT/ultilies/generateSystemMatrix.m' is used to generate the system matrix.
 
 The model can be downloaded in 链接：https://pan.baidu.com/s/1Liz4dfCApjPH_uYlUhTvfw 提取码：f5xo 
 
