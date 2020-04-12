@@ -1,6 +1,6 @@
 # MWDMSP
 The Code is created based on the method described in the following paper:
-Yuan Yuan, Siyuan Wang, Shanshan Wang, Qiegen Liu. Multi-Wavelet guided Deep Mean-Shift Prior for Image Restoration
+ Minghui Zhang; Yuan Yuan; Siyuan Wang; Shanshan Wang; Qiegen Liu. Multi-Wavelet guided Deep Mean-Shift Prior for Image Restoration
 
 
 ## Motivation
@@ -32,9 +32,9 @@ Fig. 4.Recovery results at 15% random sampling (Top) and 10% radial sampling (Bo
     matconvnet
     
 ##  deblured
-'./DemoMRI/demo_MRI.m' is the demo of MWDMSP for image deblurring.
+'./test code/TDMSP_deblur.m' is the demo of MWDMSP for image deblurring.
 ## CS
-'./DemoCT/demo_CTRec.m' is the demo of HF-DAEP for CT reconstruction.
+'./test code/Random_ComplexMRI_TDMSP_natureimage_sigma_5.m' is the demo of MWDMSP for CS reconstruction.
 
 The model can be downloaded in 链接：https://pan.baidu.com/s/1Liz4dfCApjPH_uYlUhTvfw 提取码：f5xo 
 
