@@ -24,7 +24,7 @@ Fig. 3. Visual quality comparison of image deblurring. Top line: image “Barbar
 
 ### Visual Comparisons on CS-recovery 
 ![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/CTres.png)
-Fig. 4.Recovery results at 15% random sampling (Top) and 10% radial sampling (Bottom). From left to right: Mask pattern, PANO, NLR-CS, BM3DRec, DMSP and MWDMSP.
+Fig. 4. Recovery results at 15% random sampling (Top) and 10% radial sampling (Bottom). From left to right: Mask pattern, PANO, NLR-CS, BM3DRec, DMSP and MWDMSP.
 
 ## Requirements and Dependencies
     caffe
