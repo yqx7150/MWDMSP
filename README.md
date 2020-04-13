@@ -18,11 +18,11 @@ Fig. 2. Illustration of the MWDMSP network as a priori information for the itera
 
 ![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/table.png)
 
-### Deblured visual Comparisons
+### Visual Comparisons on Image Deblurring 
 ![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/result.png)
 Fig. 3. Visual quality comparison of image deblurring. Top line: image “Barbara” on Gaussian kernel: 17x17 ,sigma=2.55 , Middle line: image “Peppers” on Gaussian kernel: 17x17,sigma=7.65, Bottom line: image “Boats” on Gaussian kernel:25x25, sigma=7.65 . From left to right: noisy and blurred image, the deblurred images obtained by LevinSps, EPLL, DAEP, DMSP, DPE, and MWDMSP.
 
-### CS visual Comparisons
+### Visual Comparisons on CS-recovery 
 ![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/CTres.png)
 Fig. 4.Recovery results at 15% random sampling (Top) and 10% radial sampling (Bottom). From left to right: Mask pattern, PANO, NLR-CS, BM3DRec, DMSP and MWDMSP.
 
@@ -31,9 +31,9 @@ Fig. 4.Recovery results at 15% random sampling (Top) and 10% radial sampling (Bo
     cuda 8.0
     matconvnet
     
-##  deblured
+##  Image Deblurring
 './test code/Demo_MWDMSP_deblur.m' is the demo of MWDMSP for image deblurring.
-## CS
+## CS-recovery
 './test code/Demo_MWDMSP_CS.m' is the demo of MWDMSP for CS reconstruction.
 
 The model can be downloaded in 链接：https://pan.baidu.com/s/1Liz4dfCApjPH_uYlUhTvfw 提取码：f5xo 
