@@ -32,9 +32,9 @@ Fig. 4.Recovery results at 15% random sampling (Top) and 10% radial sampling (Bo
     matconvnet
     
 ##  deblured
-'./test code/TDMSP_deblur.m' is the demo of MWDMSP for image deblurring.
+'./test code/Demo_MWDMSP_deblur.m' is the demo of MWDMSP for image deblurring.
 ## CS
-'./test code/Random_ComplexMRI_TDMSP_natureimage_sigma_5.m' is the demo of MWDMSP for CS reconstruction.
+'./test code/Demo_MWDMSP_CS.m' is the demo of MWDMSP for CS reconstruction.
 
 The model can be downloaded in 链接：https://pan.baidu.com/s/1Liz4dfCApjPH_uYlUhTvfw 提取码：f5xo 
 
