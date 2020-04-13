@@ -9,7 +9,7 @@ procedure as constrained conditions. Wavelet transform is a very classical tool 
 
 ### Figs
 ![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/flowchart.png)
-Fig. 1. Flow-chart of the MWDMSP network.
+Fig. 1. Flow-chart of the network used in MWDMSP.
 
 ![repeat-MWDMSP](https://github.com/yqx7150/MWDMSP/blob/master/test%20code/utils/iteration.png)
 Fig. 2. Illustration of the MWDMSP as a priori information for the iterative process in IR. 
